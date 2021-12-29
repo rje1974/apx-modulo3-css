@@ -12,6 +12,9 @@ html {
     width: 375px;
 }
 
+
+
+
 .intro{
     width: 375px;
     height: 616px;
@@ -44,7 +47,7 @@ html {
     align-content: center;
     width: 50px;
     height: 54px;
-
+    
 }
 .rayita{
     width: 36px;
@@ -52,7 +55,7 @@ html {
     background: #141414;
     margin: 3.5px;
     margin-right: 20px;
-
+    
 }
 
 .bienvenidos{
@@ -66,9 +69,9 @@ html {
 }
 
 .facha {
-        max-width: 70%;
-        height: auto;
-      }
+    max-width: 70%;
+    height: auto;
+}
 
 .soy-marce{
     background-color: black;
@@ -288,7 +291,7 @@ html {
     justify-content: start;
     align-items: center;
     align-content: center;
-
+    
 }
 
 .redes-sociales-imagen{
@@ -296,7 +299,7 @@ html {
     align-items: center;
     align-content: center;
     margin: 5px;
-
+    
 }
 
 .redes-sociales{
@@ -307,4 +310,312 @@ html {
     line-height: 19px;
     color: #2C2C2C;
     /* margin: 5px; */
+}
+
+@media (min-width: 1440px) {
+    .cuerpo {
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+        width: 1440px;
+    }
+
+    .intro{
+        width: 375px;
+        height: 616px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .intro-cabecera{
+        width: 375px;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo-personal {
+        width: 50px;
+        height: 54px;
+        align-items: center;
+        align-content: center;
+    }
+    .rayitasmenu{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        align-content: center;
+        width: 50px;
+        height: 54px;
+    
+    }
+    .rayita{
+        width: 36px;
+        height: 6px;
+        background: #141414;
+        margin: 3.5px;
+        margin-right: 20px;
+    
+    }
+    
+    .bienvenidos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        font-size: 48px;
+        font-family: 'Open Sans', sans-serif
+    }
+    
+    .facha {
+            max-width: 70%;
+            height: auto;
+          }
+    
+    .soy-marce{
+        background-color: black;
+        width: 100%;
+        height: 538px;
+        color: white;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 44px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+    }
+    
+    
+    
+    .algo-interesante {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;  
+        color: #FAFAFA;
+        margin: 32px;
+    }
+    
+    .logo-tilde {
+        display: flex;
+        width: 80px;
+        height: 80px;
+        color: #FFD953;
+        background-color: #4CAF50;
+        align-items: center;
+        justify-content: center;
+        border: yellow 5px solid;
+        border-radius: 10px;
+    }
+    
+    .mis-servicios{
+        background-color: white;
+        width: 100%;
+        height: 1375px;
+    }
+    
+    
+    .mis-servicios-cosas {
+        width: 100%;
+        height: 1375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        vertical-align: middle;
+    }
+    
+    .mis-servicios-titulo {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: -2px;
+        color: #2C2C2C;
+    }
+    
+    .cosas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        margin:60px;
+    }
+    
+    
+    .mis-servicios-logo-pc{
+        width: 30%;
+        height: 30%;
+        align-items: center;
+        align-content: center;
+        margin:5px;
+    }
+    
+    .mis-servicios-titulo-secundario{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #2C2C2C;
+        margin:5px;
+    }
+    
+    .mis-servicios-parrafos{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #2C2C2C;
+        margin:5px;
+    }
+    
+    .formulario{
+        background-color: black;
+        width: 375px;
+        height: 660px;
+    }
+    
+    .formulario-cosas {
+        width: 100%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .escribime-titulo{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: -2px;
+        
+        /* blanco */
+        
+        color: #FAFAFA;
+        
+    }
+    
+    .escribime-label{
+        width: 330px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+        color: #FAFAFA;
+        padding-bottom: 5px;
+    }
+    
+    .imput-text-nombre-email {
+        width: 335px;
+        height: 45px;
+        background: #FFFFFF;
+    }
+    
+    .imput-text-texto {
+        width: 335px;
+        height: 113px;
+        background: #FFFFFF;
+    }
+    
+    .boton {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 335px;
+        height: 45px;
+        background: #FFD953;
+        border-radius: 4px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        color: #141414;
+        text-align: center;
+    }
+    
+    
+    .pie{
+        background-color: #DBDBDB;
+        width: 375px;
+        height: 493px;
+    }
+    
+    .pie-cosas {
+        width: 100%;
+        height: 100%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #2C2C2C;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .redes-sociales-conjunto {
+        width: 375px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    
+    .redes-sociales {
+        width: 375px;
+        height: 80px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        align-content: center;
+    
+    }
+    
+    .redes-sociales-imagen{
+        height: 29px;
+        align-items: center;
+        align-content: center;
+        margin: 5px;
+    
+    }
+    
+    .redes-sociales{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #2C2C2C;
+        /* margin: 5px; */
+    }
+    
+
 }
