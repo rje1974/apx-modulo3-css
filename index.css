@@ -105,6 +105,17 @@
         align-content: center;
     }
 
+    .titulo-soy-marce{
+        font-family: Open Sans;
+        -style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: -2px;
+        color: #FAFAFA;
+    }
+
 
 
     .algo-interesante {
@@ -238,6 +249,7 @@
         line-height: 15px;
         color: #FAFAFA;
         padding-bottom: 5px;
+        margin-top: 10px;
     }
 
     .imput-text-nombre-email {
@@ -266,6 +278,8 @@
         font-size: 16px;
         color: #141414;
         text-align: center;
+        margin-top: 10px;
+        
     }
 
 
